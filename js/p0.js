@@ -2,5 +2,5 @@ function setup(){
 	createCanvas(displayWidth,displayHeight);
 }
 function draw(){
-	ellipse(mouseX,mouseY,100,100);
+	ellipse(touchX,touchY,100,100);
 }
